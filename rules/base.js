@@ -44,7 +44,7 @@ module.exports = {
         ],
       },
     ],
-    curly: 2,
+    curly: ['error', 'all'],
     "default-case": 2,
     "dot-notation": 2,
     eqeqeq: 2,
