@@ -1,6 +1,6 @@
 {
   "name": "@codi.pro/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Eslint configuration from codi.pro team",
   "main": "index.js",
   "scripts": {
