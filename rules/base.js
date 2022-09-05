@@ -122,7 +122,7 @@ module.exports = {
         const: "never",
       },
     ],
-    "operator-linebreak": [2, "before"],
+    "operator-linebreak": [2, "after"],
     "padded-blocks": [2, "never"],
     "quote-props": [2, "as-needed"],
     quotes: [2, "single", { allowTemplateLiterals: true }],
