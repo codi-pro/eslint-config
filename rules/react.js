@@ -29,7 +29,7 @@ module.exports = {
     "react/no-string-refs": 2,
     "react/no-will-update-set-state": 2,
     "react/prop-types": [2, {}],
-    "react/react-in-jsx-scope": 2,
+    "react/react-in-jsx-scope": 0,
     "react/require-render-return": 2,
     "react/self-closing-comp": 2,
     "react/sort-comp": [

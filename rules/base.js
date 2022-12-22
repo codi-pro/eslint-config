@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     node: true,
     es2020: true,
+    jest: true,
   },
 
   parserOptions: {
@@ -44,7 +45,7 @@ module.exports = {
         ],
       },
     ],
-    curly: ['error', 'all'],
+    curly: ["error", "all"],
     "default-case": 2,
     "dot-notation": 2,
     eqeqeq: 2,
@@ -122,7 +123,10 @@ module.exports = {
         const: "never",
       },
     ],
-    "operator-linebreak": [2, "after", { "overrides": { "?": "before", ":": "before" } }],
+    "operator-linebreak": [
+      2,
+      "before",
+    ],
     "padded-blocks": [2, "never"],
     "quote-props": [2, "as-needed"],
     quotes: [2, "single", { allowTemplateLiterals: true }],

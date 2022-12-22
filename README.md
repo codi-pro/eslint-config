@@ -18,3 +18,15 @@ Create a `.eslintrc.js` file with the following contents:
   }
 }
 ```
+
+For **typescript** you can use `typescript.js`
+
+```js
+{
+  "extends": "@codi.pro/eslint-config/typescript",
+  "rules": {
+    // Additional, per-project rules...
+  }
+}
+
+```
